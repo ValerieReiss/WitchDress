@@ -20,7 +20,7 @@ class GameScene: SKScene {
     let buttonCloth = SKShapeNode(rect: CGRect(x: -250, y: -350, width: 500, height: 350), cornerRadius: 30.0)
     let buttonShoe = SKShapeNode(rect: CGRect(x: -250, y: -700, width: 500, height: 350), cornerRadius: 30.0)
     
-    let backgroundImage = SKSpriteNode(imageNamed: "bgGame.png")
+    let backgroundImage = SKSpriteNode(imageNamed: "bgGameScene.png")
     let button1 = SKSpriteNode(imageNamed: "coin-yes")
     let button2 = SKSpriteNode(imageNamed: "card-backside")
     let button3 = SKSpriteNode(imageNamed: "bubble-lilac")
