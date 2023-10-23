@@ -187,13 +187,12 @@ class GameScene1: SKScene {
             }
             if node.name == "Menu" {
                
-                
                 let links = SKAction.rotate(byAngle: 5.5, duration: 0.1)
                 let rechts = SKAction.rotate(byAngle: -5.5, duration: 0.1)
                 let wackel = SKAction.sequence([links, rechts, links, rechts, links, rechts, links, rechts, ])
                 menu.run(wackel)
                 run("sound-button")
-                self.view?.presentScene(GameScene(size: self.size),
+                self.view?.presentScene(Menu(size: self.size),
                                     transition: .crossFade(withDuration: 5))
             }
         

@@ -216,7 +216,7 @@ class GameScene4: SKScene {
             }
         
             if node.name == "Menu" {
-                self.view?.presentScene(GameScene(size: self.size),
+                self.view?.presentScene(Menu(size: self.size),
                                         transition: .crossFade(withDuration: 3))
                 run("sound-button")
             }
